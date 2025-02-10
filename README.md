@@ -31,7 +31,7 @@ tmux new-session -s session-name
 You can attach a session that is already running by using the command:
 
 ```
-$ tmux new-session -A session-name
+tmux new-session -A session-name
 ```
 
 ## Killing a session
