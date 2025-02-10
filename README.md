@@ -7,25 +7,25 @@ Tmux is a powerful terminal multiplexer that allows you to manage multiple termi
 You can install tmux in Ubuntu using this command:
 
 ```
-$ sudo apt install tmux
+sudo apt install tmux
 ```
 
 Or of you are using mac using:
 
 ```
-$ brew install tmux
+brew install tmux
 ```
 
 ## Starting a new session we start using this command:
 
 ```
-$ tmux
+tmux
 ```
 
 Alternatively to start a named session we use the command:
 
 ```
-$ tmux new-session -s session-name
+tmux new-session -s session-name
 ```
 
 You can attach a session that is already running by using the command:
@@ -39,36 +39,36 @@ $ tmux new-session -A session-name
 We can kill a specific session by use of command:
 
 ```
-$ tmux kill-ses -t session-name
+tmux kill-ses -t session-name
 ```
 
 Or
 
 ```
-$ tmux kill-session -t session-name
+tmux kill-session -t session-name
 ```
 
 If you want to kill all sessions we use:
 
 ```
-$ tmux kill-session -a
+tmux kill-session -a
 ```
 
 alternatively we can kill all sessions but specific session, we use:
 
 ```
-$ tmux kill-session -a -t specific-name
+tmux kill-session -a -t specific-name
 ```
 
 ## To preview windows we use the command:
 
 ```
-$ Ctrl+b w
+Ctrl+b w
 ```
 ## We can create a named window when creating a session using the command:
 
 ```
-$ tmux new-session -s session-name -n window-name
+tmux new-session -s session-name -n window-name
 ```
 ### When already in a window we can create another window using the command
 
