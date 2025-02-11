@@ -39,7 +39,7 @@ tmux new-session -A session-name
 We can kill a specific session by use of command:
 
 ```
-tmux kill-session -t session-name
+Ctrl+b
 ```
 
 Or
